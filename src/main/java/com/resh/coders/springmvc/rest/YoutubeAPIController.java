@@ -1,16 +1,6 @@
 package com.resh.coders.springmvc.rest;
 import com.resh.coders.springmvc.models.restResponse;
 import com.resh.coders.springmvc.services.YoutubeAPIService;
-
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.annotation.PostConstruct;
-import javax.websocket.server.PathParam;
-
-import org.jsoup.helper.HttpConnection;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
